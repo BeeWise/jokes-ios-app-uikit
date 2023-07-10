@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Jokes.xcscheme_^#shared#^_</key>
+		<key>Jokes (development).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>Jokes (production).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>85F5451B2A5BFC15007D401D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85F545312A5BFC16007D401D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85F5453B2A5BFC16007D401D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

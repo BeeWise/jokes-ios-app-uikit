@@ -15,6 +15,19 @@
 		85F545372A5BFC16007D401D /* JokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545362A5BFC16007D401D /* JokesTests.swift */; };
 		85F545412A5BFC16007D401D /* JokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545402A5BFC16007D401D /* JokesUITests.swift */; };
 		85F545432A5BFC16007D401D /* JokesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545422A5BFC16007D401D /* JokesUITestsLaunchTests.swift */; };
+		85F545522A5BFEB2007D401D /* ApplicationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545502A5BFEB2007D401D /* ApplicationStyle.swift */; };
+		85F545532A5BFEB2007D401D /* ApplicationConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545512A5BFEB2007D401D /* ApplicationConstraints.swift */; };
+		85F5455C2A5C01C0007D401D /* LocalDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85F545572A5C01BF007D401D /* LocalDevelopment.xcconfig */; };
+		85F5455D2A5C01C0007D401D /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85F545582A5C01BF007D401D /* Development.xcconfig */; };
+		85F5455E2A5C01C0007D401D /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85F5455A2A5C01BF007D401D /* Production.xcconfig */; };
+		85F5455F2A5C01C0007D401D /* LocalProduction.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85F5455B2A5C01BF007D401D /* LocalProduction.xcconfig */; };
+		85F545672A5C0217007D401D /* BundleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545622A5C0217007D401D /* BundleConfiguration.swift */; };
+		85F545692A5C0217007D401D /* DateFormatter+UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545662A5C0217007D401D /* DateFormatter+UTC.swift */; };
+		85F545712A5C034C007D401D /* Helvetica-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F5456C2A5C034C007D401D /* Helvetica-Oblique.ttf */; };
+		85F545722A5C034C007D401D /* Helvetica-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F5456D2A5C034C007D401D /* Helvetica-BoldOblique.ttf */; };
+		85F545732A5C034C007D401D /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F5456E2A5C034C007D401D /* Helvetica.ttf */; };
+		85F545742A5C034C007D401D /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F5456F2A5C034C007D401D /* Helvetica-Bold.ttf */; };
+		85F545752A5C034C007D401D /* Helvetica-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F545702A5C034C007D401D /* Helvetica-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		85F5453C2A5BFC16007D401D /* JokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F545402A5BFC16007D401D /* JokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesUITests.swift; sourceTree = "<group>"; };
 		85F545422A5BFC16007D401D /* JokesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85F545502A5BFEB2007D401D /* ApplicationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationStyle.swift; sourceTree = "<group>"; };
+		85F545512A5BFEB2007D401D /* ApplicationConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationConstraints.swift; sourceTree = "<group>"; };
+		85F545572A5C01BF007D401D /* LocalDevelopment.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = LocalDevelopment.xcconfig; sourceTree = "<group>"; };
+		85F545582A5C01BF007D401D /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		85F5455A2A5C01BF007D401D /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		85F5455B2A5C01BF007D401D /* LocalProduction.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = LocalProduction.xcconfig; sourceTree = "<group>"; };
+		85F545622A5C0217007D401D /* BundleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleConfiguration.swift; sourceTree = "<group>"; };
+		85F545662A5C0217007D401D /* DateFormatter+UTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+UTC.swift"; sourceTree = "<group>"; };
+		85F5456C2A5C034C007D401D /* Helvetica-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Oblique.ttf"; sourceTree = "<group>"; };
+		85F5456D2A5C034C007D401D /* Helvetica-BoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-BoldOblique.ttf"; sourceTree = "<group>"; };
+		85F5456E2A5C034C007D401D /* Helvetica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvetica.ttf; sourceTree = "<group>"; };
+		85F5456F2A5C034C007D401D /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		85F545702A5C034C007D401D /* Helvetica-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +123,13 @@
 		85F5451E2A5BFC15007D401D /* Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				85F5456A2A5C0323007D401D /* Resources */,
+				85F545602A5C0217007D401D /* Extensions */,
+				85F545552A5C01BF007D401D /* Configurations */,
+				85F5454F2A5BFEB2007D401D /* Style */,
 				85F5451F2A5BFC15007D401D /* AppDelegate.swift */,
 				85F545212A5BFC15007D401D /* SceneDelegate.swift */,
 				85F545232A5BFC15007D401D /* ViewController.swift */,
-				85F545282A5BFC15007D401D /* Assets.xcassets */,
 				85F5452A2A5BFC15007D401D /* LaunchScreen.storyboard */,
 				85F5452D2A5BFC15007D401D /* Info.plist */,
 			);
@@ -122,6 +151,88 @@
 				85F545422A5BFC16007D401D /* JokesUITestsLaunchTests.swift */,
 			);
 			path = JokesUITests;
+			sourceTree = "<group>";
+		};
+		85F5454F2A5BFEB2007D401D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				85F545502A5BFEB2007D401D /* ApplicationStyle.swift */,
+				85F545512A5BFEB2007D401D /* ApplicationConstraints.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		85F545552A5C01BF007D401D /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				85F545562A5C01BF007D401D /* Development */,
+				85F545592A5C01BF007D401D /* Production */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		85F545562A5C01BF007D401D /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				85F545572A5C01BF007D401D /* LocalDevelopment.xcconfig */,
+				85F545582A5C01BF007D401D /* Development.xcconfig */,
+			);
+			path = Development;
+			sourceTree = "<group>";
+		};
+		85F545592A5C01BF007D401D /* Production */ = {
+			isa = PBXGroup;
+			children = (
+				85F5455A2A5C01BF007D401D /* Production.xcconfig */,
+				85F5455B2A5C01BF007D401D /* LocalProduction.xcconfig */,
+			);
+			path = Production;
+			sourceTree = "<group>";
+		};
+		85F545602A5C0217007D401D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85F545612A5C0217007D401D /* Bundle Configuration */,
+				85F545652A5C0217007D401D /* Date Formatter */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		85F545612A5C0217007D401D /* Bundle Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				85F545622A5C0217007D401D /* BundleConfiguration.swift */,
+			);
+			path = "Bundle Configuration";
+			sourceTree = "<group>";
+		};
+		85F545652A5C0217007D401D /* Date Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				85F545662A5C0217007D401D /* DateFormatter+UTC.swift */,
+			);
+			path = "Date Formatter";
+			sourceTree = "<group>";
+		};
+		85F5456A2A5C0323007D401D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85F545282A5BFC15007D401D /* Assets.xcassets */,
+				85F5456B2A5C034C007D401D /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85F5456B2A5C034C007D401D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				85F5456C2A5C034C007D401D /* Helvetica-Oblique.ttf */,
+				85F5456D2A5C034C007D401D /* Helvetica-BoldOblique.ttf */,
+				85F5456E2A5C034C007D401D /* Helvetica.ttf */,
+				85F5456F2A5C034C007D401D /* Helvetica-Bold.ttf */,
+				85F545702A5C034C007D401D /* Helvetica-Light.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +339,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F545752A5C034C007D401D /* Helvetica-Light.ttf in Resources */,
 				85F5452C2A5BFC15007D401D /* LaunchScreen.storyboard in Resources */,
+				85F545742A5C034C007D401D /* Helvetica-Bold.ttf in Resources */,
+				85F545722A5C034C007D401D /* Helvetica-BoldOblique.ttf in Resources */,
+				85F5455E2A5C01C0007D401D /* Production.xcconfig in Resources */,
 				85F545292A5BFC15007D401D /* Assets.xcassets in Resources */,
+				85F5455D2A5C01C0007D401D /* Development.xcconfig in Resources */,
+				85F5455C2A5C01C0007D401D /* LocalDevelopment.xcconfig in Resources */,
+				85F5455F2A5C01C0007D401D /* LocalProduction.xcconfig in Resources */,
+				85F545712A5C034C007D401D /* Helvetica-Oblique.ttf in Resources */,
+				85F545732A5C034C007D401D /* Helvetica.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +374,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F545672A5C0217007D401D /* BundleConfiguration.swift in Sources */,
 				85F545242A5BFC15007D401D /* ViewController.swift in Sources */,
+				85F545692A5C0217007D401D /* DateFormatter+UTC.swift in Sources */,
+				85F545532A5BFEB2007D401D /* ApplicationConstraints.swift in Sources */,
 				85F545202A5BFC15007D401D /* AppDelegate.swift in Sources */,
+				85F545522A5BFEB2007D401D /* ApplicationStyle.swift in Sources */,
 				85F545222A5BFC15007D401D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		85F545442A5BFC16007D401D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F545582A5C01BF007D401D /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -366,6 +491,7 @@
 		};
 		85F545452A5BFC16007D401D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F5455A2A5C01BF007D401D /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -420,6 +546,7 @@
 		};
 		85F545472A5BFC16007D401D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F545582A5C01BF007D401D /* Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +574,7 @@
 		};
 		85F545482A5BFC16007D401D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F5455A2A5C01BF007D401D /* Production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +602,7 @@
 		};
 		85F5454A2A5BFC16007D401D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F545582A5C01BF007D401D /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +623,7 @@
 		};
 		85F5454B2A5BFC16007D401D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F5455A2A5C01BF007D401D /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +644,7 @@
 		};
 		85F5454D2A5BFC16007D401D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F545582A5C01BF007D401D /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +663,7 @@
 		};
 		85F5454E2A5BFC16007D401D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F5455A2A5C01BF007D401D /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

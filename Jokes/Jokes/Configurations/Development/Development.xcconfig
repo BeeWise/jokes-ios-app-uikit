@@ -1,0 +1,20 @@
+//
+//  Development.xcconfig
+//  Jokes
+//
+//  Created by Cristian Crasneanu on 10.07.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_BUNDLE_ID = id
+APP_NAME = name
+
+
+TASK_CONFIGURATOR_ENVIRONMENT = environment
+OPERATION_LOGGING_ENABLED = false
+
+JOKES_ENDPOINT = url
+
+#include "LocalDevelopment.xcconfig"
