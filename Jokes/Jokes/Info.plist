@@ -37,5 +37,7 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>TASK_CONFIGURATOR_ENVIRONMENT</key>
 	<string>$(TASK_CONFIGURATOR_ENVIRONMENT)</string>
+	<key>JOKES_ENDPOINT</key>
+	<string>$(JOKES_ENDPOINT)</string>
 </dict>
 </plist>

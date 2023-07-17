@@ -6,6 +6,7 @@ public class ApplicationConstraints {
     public static func tabBarViewHeight() -> CGFloat { 56 }
 
     public enum constant: CGFloat, CaseIterable {
+        case x0 = 0
         case x1 = 1
         case x2 = 2
         case x3 = 3

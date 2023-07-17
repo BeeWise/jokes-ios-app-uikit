@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Jokes
+
+  Created by Cristian Crasneanu on 17.07.2023.
+  
+*/
+
+"Jokes.scene.no.more.items.text" = "No more items";
+"Jokes.scene.error.text" = "An error occurred while fetching appointments. Tap here to reload ↺";
+"Joke.read.answer.title" = "Read answer";

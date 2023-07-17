@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         self.window = UIWindow(windowScene: windowScene)
         self.window?.backgroundColor = ApplicationStyle.colors.white()
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = UINavigationController(rootViewController: JokesViewController())
         self.window?.makeKeyAndVisible()
     }
 
