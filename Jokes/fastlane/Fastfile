@@ -19,6 +19,5 @@ platform :ios do
   desc "Running unit tests"
   lane :tests do
     run_tests(scheme: "Jokes (development)")
-    destination: "platform=iOS Simulator,OS=16.2,name=iPhone 14"
   end
 end
