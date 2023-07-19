@@ -7,4 +7,4 @@ scheme("Jokes (development)")
 workspace("Jokes.xcworkspace")
 
 # The simulator destination you want to use
-destination("platform=iOS Simulator,OS=16.2,name=iPhone 11")
+destination("platform=iOS Simulator,OS=14.4,name=iPhone 11")
