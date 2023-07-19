@@ -23,6 +23,12 @@ jobs:
           bundle install
         working-directory: Jokes
 
+      - name: "Install CocoaPods dependencies"
+        run: |
+          gem install cocoapods
+          pod install
+        working-directory: Jokes
+
       - name: "Run tests"
         run: "bundle exec fastlane tests"
         working-directory: Jokes
