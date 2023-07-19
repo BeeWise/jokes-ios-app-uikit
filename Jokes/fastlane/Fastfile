@@ -19,5 +19,11 @@ platform :ios do
   desc "Running unit tests"
   lane :tests do
     #  run_tests(workspace: "Jokes.xcworkspace", scheme: "Jokes (development)")
+  xcodebuild \
+  -workspace Jokes.xcworkspace \
+  -scheme "Jokes (development)" \
+  -sdk iphonesimulator \
+  -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2' \
+  test
   end
 end
