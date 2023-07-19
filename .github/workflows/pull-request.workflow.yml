@@ -37,5 +37,6 @@ jobs:
         working-directory: Jokes
 
       - name: "Run tests"
-        run: "bundle exec fastlane tests"
+        run: |
+          xcodebuild -workspace Jokes.xcworkspace -scheme "Jokes (development)" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2' test
         working-directory: Jokes
