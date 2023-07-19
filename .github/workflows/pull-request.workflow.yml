@@ -29,13 +29,6 @@ jobs:
           bundle install
         working-directory: Jokes
 
-      - uses: actions/cache@v2
-      with:
-        path: Pods
-        key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-pods-
-          
       - name: "Install CocoaPods dependencies"
         run: |
           gem install cocoapods
