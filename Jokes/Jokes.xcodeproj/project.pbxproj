@@ -10,6 +10,7 @@
 		19409C56773577322AE963E4 /* Pods_Jokes_JokesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E074C88F0A7A6CC24BCB74E0 /* Pods_Jokes_JokesUITests.framework */; };
 		3C8A85B0F2ABA169C1E693F9 /* Pods_JokesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2168637E86FCAACF7262D40 /* Pods_JokesTests.framework */; };
 		8507BAE22A67C0DC00D71325 /* UIScrollViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507BAE12A67C0DC00D71325 /* UIScrollViewSpy.swift */; };
+		8507BAE42A692BF200D71325 /* OperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507BAE32A692BF200D71325 /* OperationError.swift */; };
 		8599E8652A612DC700C8FA5A /* UIScrollView+LoadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599E8642A612DC700C8FA5A /* UIScrollView+LoadMore.swift */; };
 		8599E8682A612F8D00C8FA5A /* Date+LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599E8672A612F8D00C8FA5A /* Date+LocalizedTimeAgo.swift */; };
 		8599E86B2A6161F200C8FA5A /* ImageTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599E86A2A6161F200C8FA5A /* ImageTask.swift */; };
@@ -72,7 +73,6 @@
 		85F545B12A5C3A04007D401D /* GetJokesOperationRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545AD2A5C3A04007D401D /* GetJokesOperationRequestBuilder.swift */; };
 		85F545B42A5C3A65007D401D /* JokesTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545B32A5C3A65007D401D /* JokesTask.swift */; };
 		85F545B62A5C3AD6007D401D /* LocalDataTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545B52A5C3AD6007D401D /* LocalDataTaskOperation.swift */; };
-		85F545B82A5C3AE0007D401D /* OperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545B72A5C3AE0007D401D /* OperationError.swift */; };
 		85F545BA2A5C3AE6007D401D /* OperationErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545B92A5C3AE6007D401D /* OperationErrorCode.swift */; };
 		85F545CE2A5C3C03007D401D /* LoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545CD2A5C3C03007D401D /* LoadingImageView.swift */; };
 		85F545D12A5C3D3A007D401D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F545D02A5C3D3A007D401D /* UIColor.swift */; };
@@ -124,6 +124,7 @@
 		7267C1FDE7BA8778FE04A3B7 /* Pods_Jokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A9C2D06548E688E8820C76 /* Pods-Jokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes.release.xcconfig"; path = "Target Support Files/Pods-Jokes/Pods-Jokes.release.xcconfig"; sourceTree = "<group>"; };
 		8507BAE12A67C0DC00D71325 /* UIScrollViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewSpy.swift; sourceTree = "<group>"; };
+		8507BAE32A692BF200D71325 /* OperationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationError.swift; sourceTree = "<group>"; };
 		8599E8642A612DC700C8FA5A /* UIScrollView+LoadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+LoadMore.swift"; sourceTree = "<group>"; };
 		8599E8672A612F8D00C8FA5A /* Date+LocalizedTimeAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+LocalizedTimeAgo.swift"; sourceTree = "<group>"; };
 		8599E86A2A6161F200C8FA5A /* ImageTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTask.swift; sourceTree = "<group>"; };
@@ -195,7 +196,6 @@
 		85F545AD2A5C3A04007D401D /* GetJokesOperationRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetJokesOperationRequestBuilder.swift; sourceTree = "<group>"; };
 		85F545B32A5C3A65007D401D /* JokesTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesTask.swift; sourceTree = "<group>"; };
 		85F545B52A5C3AD6007D401D /* LocalDataTaskOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataTaskOperation.swift; sourceTree = "<group>"; };
-		85F545B72A5C3AE0007D401D /* OperationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationError.swift; path = "../../../../../../jokes-ios-app/Jokes/Jokes/Operations/Base/Errors/OperationError.swift"; sourceTree = "<group>"; };
 		85F545B92A5C3AE6007D401D /* OperationErrorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationErrorCode.swift; sourceTree = "<group>"; };
 		85F545CD2A5C3C03007D401D /* LoadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingImageView.swift; sourceTree = "<group>"; };
 		85F545D02A5C3D3A007D401D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -555,7 +555,7 @@
 			isa = PBXGroup;
 			children = (
 				85F545B92A5C3AE6007D401D /* OperationErrorCode.swift */,
-				85F545B72A5C3AE0007D401D /* OperationError.swift */,
+				8507BAE32A692BF200D71325 /* OperationError.swift */,
 			);
 			path = Errors;
 			sourceTree = "<group>";
@@ -1053,11 +1053,11 @@
 				8599E86B2A6161F200C8FA5A /* ImageTask.swift in Sources */,
 				85F545862A5C3551007D401D /* JSONFileOperation.swift in Sources */,
 				85F545A72A5C39F2007D401D /* Joke.swift in Sources */,
+				8507BAE42A692BF200D71325 /* OperationError.swift in Sources */,
 				85E0578F2A65117100A8CE50 /* UITableView+DefaultReuseIdentifier.swift in Sources */,
 				85F545AE2A5C3A04007D401D /* GetJokesOperationModel.swift in Sources */,
 				85F545832A5C3551007D401D /* EndpointsBuilder.swift in Sources */,
 				85F545B62A5C3AD6007D401D /* LocalDataTaskOperation.swift in Sources */,
-				85F545B82A5C3AE0007D401D /* OperationError.swift in Sources */,
 				85F545E52A5C3FBF007D401D /* JokesRouter.swift in Sources */,
 				85F545882A5C3551007D401D /* DataTaskOperation+Logging.swift in Sources */,
 				85F545E32A5C3FBF007D401D /* JokesWorker.swift in Sources */,
