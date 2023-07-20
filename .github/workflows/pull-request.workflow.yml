@@ -37,11 +37,11 @@ jobs:
 
       - name: "Create LocalDevelopment.xcconfig file"
         run: "echo 'APP_BUNDLE_ID = id\nAPP_NAME = name\nTASK_CONFIGURATOR_ENVIRONMENT = memory\nOPERATION_LOGGING_ENABLED = false\nJOKES_ENDPOINT = url' > LocalDevelopment.xcconfig"
-        working-directory: Jokes/Configurations/Development
+        working-directory: Jokes/Jokes/Configurations/Development
 
       - name: "Create LocalProduction.xcconfig file"
         run: "echo 'APP_BUNDLE_ID = id\nAPP_NAME = name\nTASK_CONFIGURATOR_ENVIRONMENT = memory\nOPERATION_LOGGING_ENABLED = false\nJOKES_ENDPOINT = url' > LocalProduction.xcconfig"
-        working-directory: Jokes/Configurations/Production
+        working-directory: Jokes/Jokes/Configurations/Production
 
       - name: "Run tests"
         run: "bundle exec fastlane tests"
